@@ -1,0 +1,408 @@
+.project-page{
+    height: 220vh !important;
+    display: flex;
+
+}
+
+.project-middle{
+    height: max-content !important;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.middle{
+  display: flex;
+  width: max-content;
+  margin: 40px auto;
+  position: relative;
+  justify-self: center;
+  align-items: center;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  height: 80vh;
+
+}
+
+.hover1{
+    display: inline-block;
+    color: #9ACD32;
+}
+
+.device{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    align-items: center;
+    flex-direction: row;
+    height: max-content;
+    width: max-content;
+    margin-right: 30vh;
+}
+
+.laptop
+{
+    display: flex;
+    position: relative;
+    height: 50vh;
+    width: 50vh;
+    left: 8vh;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: rgb(39, 37, 37);
+    border: solid 2px rgb(50, 50, 50); */
+}
+
+.lapmid{
+    display: flex;
+    height: 30vh;
+    width: 48vh;
+    border-radius: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.lapbottom{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 7vh;
+    width: 50vh;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 197, 197);
+}
+
+.lapupper{
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(39, 37, 37);
+    border: solid 2px rgb(50, 50, 50);
+}
+
+.laplower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lup{
+    width: 10vh;
+    height: 3vh;
+    display: flex;
+    border-top: solid 1px rgb(202, 197, 197);;
+    background-color: rgb(202, 197, 197);
+}
+
+.ldo{
+    display: flex;
+    width: 15vh;
+    height: 2vh;
+    background-color: rgb(202, 197, 197);
+    border-radius: 2px;
+
+}
+
+.lapicon{
+    display: flex;
+    position:absolute;
+    height: 20px;
+    height: 20px;
+}
+
+.tablet{
+    display: flex;
+    /* position: relative; */
+    position:absolute;
+    left:50vh;
+    top: 20%;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 37, 37);
+    border: solid 2px rgb(50, 50, 50);
+}
+
+.tabtop{
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 5vh;
+    width: 29vh;
+    border-radius: 10px 10px 0 0;
+    border: #111 solid 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+   
+}
+
+.tabbottom{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 5vh;
+    width: 29vh;
+    border-radius: 0 0 10px 10px;
+    border: #111 solid 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+
+}
+
+.tabmid{
+    display: flex;
+    height: 28vh;
+    width: 28vh;
+    background-color: rgb(174, 167, 167);
+    align-items: center;
+}
+
+.circle{
+    display: flex;
+    border-radius: 50%;
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color: black;
+    border: rgb(155, 151, 151) solid 1px;
+
+}
+
+
+.phone{
+    display: flex;
+    /* position: relative; */
+    position:absolute;
+    top:40%;
+    left:0;
+    z-index: 1;
+    height: 30vh;
+    width: 20vh;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 37, 37);
+    border: solid 2px rgb(50, 50, 50);
+
+}
+
+.phonetop{
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 3vh;
+    width: 19vh;
+    border-radius: 20px 20px 0 0;
+    border: #111 solid 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+
+}
+
+.phonemid{
+    display: flex;
+    height: 22vh;
+    width: 19vh;
+    background-color: rgb(174, 167, 167);
+    align-items: center;
+
+}
+
+.phonebottom{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 3vh;
+    width: 19vh;
+    border-radius: 0 0 20px 20px;
+    border: #111 solid 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+
+}
+
+.devmain{
+    width: 100%;
+    height: max-content;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15vh 0 0 0 ;
+
+}
+
+.contamain{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: fit-content;
+    width: max-content;
+    color: white;
+    flex-direction: column;
+}
+
+.hr{
+   color:black;
+   width:5vh; 
+   height: 1px; 
+   border-radius: 1px;
+   border: solid 1px white;
+
+}
+
+@media screen and (max-width: 800px){
+
+    .device{
+        width: 85vw;
+        margin: 0 0;
+    }
+
+    .phone{
+        border-radius: 10px;
+        width: 15vw;
+        height: 24vw;
+        left: 6vw;
+
+    }
+
+    .phonetop{
+        width: 14vw;
+        height:2vw;
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .phonemid{
+        width: 14vw;
+        height: 18vw;
+
+    }
+
+    .phonebottom{
+        width: 14vw;
+        height: 2vw;
+        border-radius: 0 0 10px 10px;
+
+    }
+
+    .circle{
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .tablet{
+        width: 22vw;
+        height: 30vw;
+        left:55vw;
+        top: 30%;
+    }
+
+    .tabtop{
+        width: 21vw;
+        height: 2vw;
+
+    }
+
+    .tabmid{
+        width: 21vw;
+        height: 24vw;
+    }
+
+    .tabbottom{
+        width: 21vw;
+        height: 2vw;
+
+    }
+
+    .laptop{
+        width: 45vw;
+        height: 45vw;
+        left: -2vw;
+
+    }
+
+    .lapmid{
+        width: 42vw;
+        height: 29vw;
+
+
+    }
+
+    .lapbottom{
+        width: 42vw;
+        height: 3vw;
+
+    }
+
+    .lapupper{
+        width: 43vw;
+        height: 35vw;
+    }
+    
+    .laplower{
+        width: 45vw;
+        height: 4vw;
+
+    }
+
+    .lup{
+        width: 7vw;
+        height: 2vw;
+
+    }
+
+    .ldo{
+        width: 10vw;
+        height: 1.5vw;
+
+    }
+    .lapicon{
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+}
+
+.portimg{
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 1000px){
+
+    .devmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+       
+   .contamain{
+       width: 100%;
+       align-items: center;
+       justify-self: center;
+       margin: 0 auto;
+   }
+
+
+}

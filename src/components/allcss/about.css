@@ -1,0 +1,40 @@
+
+.page{
+    height: 140vh;
+}
+
+.description{
+    margin: 0 0;
+    height: fit-content;
+    width: 40vw;
+    font-size: 20px;
+    font-family:'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+
+.img1{
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 20vw;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img1:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:950px) {
+
+    .description{
+        width: 65vw;
+    }
+
+    .img1{
+        width: 23vw;
+    }
+
+}
+
