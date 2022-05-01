@@ -33,7 +33,7 @@ export default function Projects() {
                        <hr className="hr"></hr>
                       </div>
                       <div className="phonemid">
-                        <img src="./img/Front.png" className="phonemid"/>
+                        <img src="./img/Front.png" className="phonemid" alt="phone"/>
           
                       </div>
                       <div className="phonebottom" >
@@ -47,11 +47,11 @@ export default function Projects() {
                     <div className="lapupper">
                         <div className="lapmid">
                         
-                          <img src="./img/laptop.png" className="lapmid"/>
+                          <img src="./img/laptop.png" className="lapmid" alt="laptop"/>
           
                         </div>
                         <div className="lapbottom" >
-                        <img src="./img/apple.png" className="lapicon"/>
+                        <img src="./img/apple.png" className="lapicon" alt="appleicon"/>
                         </div>
                     </div>
                     <div className="laplower">
@@ -66,7 +66,7 @@ export default function Projects() {
                       <hr className="hr"></hr>
                       </div>
                       <div className="tabmid">
-                        <img src="./img/tab.png" className="tabmid"/>
+                        <img src="./img/tab.png" className="tabmid" alt="tab"/>
           
                       </div>
                       <div className="tabbottom" >
@@ -89,7 +89,7 @@ export default function Projects() {
                         
                     </div>
                     <div className="img">
-                      <img src="./img/portfolio.png" className="img1 portimg"/>
+                      <img src="./img/portfolio.png" className="img1 portimg" alt="portfolio"/>
                     </div>
                 </div>
 

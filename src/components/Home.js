@@ -44,7 +44,7 @@ export default function Home() {
                 </h2>
             </div>
             <div className="img">
-             <img src="./img/coding.png" className="img" ></img>
+             <img src="./img/coding.png" className="img" alt="coding"></img>
             </div>
         </div>
         <div className="div-bottom">{des.div[0].end}</div>
