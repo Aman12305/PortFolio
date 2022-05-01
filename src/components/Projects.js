@@ -27,53 +27,52 @@ export default function Projects() {
                       <strong className="hover1">Single Repeat Mode :</strong> It will play a song only two time and move to another song without stucking in a infinite loop.
                       </p>
                     </div>
-                <div className="device">
-                  <div className="phone">
-                      <div className="phonetop">
-                       <hr className="hr"></hr>
-                      </div>
-                      <div className="phonemid">
-                        <img src="./img/Front.png" className="phonemid" alt="phone"/>
-          
-                      </div>
-                      <div className="phonebottom" >
-                        <div className="circle">
-          
+                    <div className="device">
+                        <div className="phone">
+                            <div className="phonetop">
+                            <hr className="hr"></hr>
+                            </div>
+                            <div className="phonemid">
+                              <img src="./img/Front.png" className="phonemid" alt="phone"/>
+                
+                            </div>
+                            <div className="phonebottom" >
+                              <div className="circle">
+                
+                              </div>
+                            </div>
                         </div>
-                      </div>
-                  </div>
-        
-                  <div className="laptop" >
-                    <div className="lapupper">
-                        <div className="lapmid">
-                        
-                          <img src="./img/laptop.png" className="lapmid" alt="laptop"/>
-          
+              
+                        <div className="laptop" >
+                          <div className="lapupper">
+                              <div className="lapmid">
+                              
+                                <img src="./img/laptop.png" className="lapmid" alt="laptop"/>
+                
+                              </div>
+                              <div className="lapbottom" >
+                              <img src="./img/apple.png" className="lapicon" alt="appleicon"/>
+                              </div>
+                          </div>
+                          <div className="laplower">
+                              <div className="lup"></div>
+                              <div className="ldo"></div>
+                          </div>
                         </div>
-                        <div className="lapbottom" >
-                        <img src="./img/apple.png" className="lapicon" alt="appleicon"/>
+              
+                        <div className="tablet" >
+                            <div className="tabtop">
+                            
+                            <hr className="hr"></hr>
+                            </div>
+                            <div className="tabmid">
+                              <img src="./img/tab.png" className="tabmid" alt="tab"/>
+                
+                            </div>
+                            <div className="tabbottom" >
+                            </div>
                         </div>
-                    </div>
-                    <div className="laplower">
-                        <div className="lup"></div>
-                        <div className="ldo"></div>
-                    </div>
                   </div>
-        
-                  <div className="tablet" >
-                      <div className="tabtop">
-                      
-                      <hr className="hr"></hr>
-                      </div>
-                      <div className="tabmid">
-                        <img src="./img/tab.png" className="tabmid" alt="tab"/>
-          
-                      </div>
-                      <div className="tabbottom" >
-                      </div>
-                  </div>
-              </div>
-                    
                 </div>
 
                 <div className="devmain">

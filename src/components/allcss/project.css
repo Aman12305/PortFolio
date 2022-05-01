@@ -1,5 +1,5 @@
 .project-page{
-    height: 220vh !important;
+    height: 240vh !important;
     display: flex;
 
 }
@@ -248,7 +248,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    margin: 12vh 0 0 0 ;
+    margin: 8vh 0 0 0 ;
 
 }
 
