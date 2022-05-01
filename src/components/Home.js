@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import "./allcss/home.css";
 
 import * as des from './data';
-import TextAnimation from "./textanimation";
+
 
 // new Typewriter('#typewriter', {
 //   strings: ['SoftWare Developer','Full-Stack Developer'],

@@ -385,7 +385,11 @@
 }
 
 .portimg{
-    border: 2px solid white;
+    border: 2px solid #9ACD32;
+}
+
+.portimg:hover {
+    transform: scale(0.8) !important;
 }
 
 @media screen and (max-width: 1000px){

@@ -84,7 +84,7 @@ export default function Projects() {
                       <br>
                       </br>
                       <br></br>
-                      <strong className="hover1">Tech Stack:</strong> React, CSS :- animation using keyframes, EmailJs.
+                      <strong className="hover1">Tech Stack:</strong> React, CSS :- animation using keyframes, EmailJs , Typewriter-Effect.
                       </p>
                         
                     </div>
