@@ -4,7 +4,7 @@ import styled ,{keyframes} from "styled-components";
 
 export default function Ccod() {
 
-    const cimg = <img src="./img/c.png" id="" className="icons-skills"></img>;
+    const cimg = <img src="./img/c.png" id="" className="icons-skills" alt="c"></img>;
     
     return(
         <Wrap>{cimg}</Wrap>
@@ -35,7 +35,7 @@ img{
 
 export  function Ccpp() {
 
-    const cppimg = <img src="./img/c++.png" id="" className="icons-skills c"></img>
+    const cppimg = <img src="./img/c++.png" id="" className="icons-skills c" alt="c++"></img>
     
     return(
         <Cpp>{cppimg}</Cpp>   
@@ -61,7 +61,7 @@ img{
 
 export  function Cfire() {
 
-    const cfire = <img src="./img/firebase.png" id="" className="icons-skills firebase"></img>
+    const cfire = <img src="./img/firebase.png" id="" className="icons-skills firebase" alt="firebase"></img>
     
     return(
         <Cfir>{cfire}</Cfir>   
@@ -89,7 +89,7 @@ img{
 
 export  function Chtml() {
 
-    const chtml = <img src="./img/html.png" id="" className="icons-skills html"></img>;
+    const chtml = <img src="./img/html.png" id="" className="icons-skills html" alt="html"></img>;
     
     return(
         <Chtm>{chtml}</Chtm>   
@@ -116,7 +116,7 @@ img{
 
 export  function Ccss() {
 
-    const ccss =  <img src="./img/css.png" id="" className="icons-skills css"></img>;
+    const ccss =  <img src="./img/css.png" id="" className="icons-skills css" alt="css"></img>;
     
     return(
         <Ccs>{ccss}</Ccs>   
@@ -143,7 +143,7 @@ img{
 
 export  function Cjs() {
 
-    const cjs = <img src="./img/js.png" id="" className="icons-skills js"></img>;
+    const cjs = <img src="./img/js.png" id="" className="icons-skills js" alt="js"></img>;
     
     return(
         <Cj>{cjs}</Cj>   
@@ -170,7 +170,7 @@ img{
 
 export  function Cnode() {
 
-    const cnode = <img src="./img/node.png" id="" className="icons-skills node"></img>
+    const cnode = <img src="./img/node.png" id="" className="icons-skills node" alt="node"></img>
     
     return(
         <Cnod>{cnode}</Cnod>   
@@ -197,7 +197,7 @@ img{
 
 export  function Creact() {
 
-    const creact =  <img src="./img/react.png" id="" className="icons-skills react"></img>
+    const creact =  <img src="./img/react.png" id="" className="icons-skills react" alt="react"></img>
     
     return(
         <Creac>{creact}</Creac>   
@@ -224,7 +224,7 @@ img{
 
 export  function Cgithub() {
 
-    const cgithub =  <img src="./img/github.png" id="" className="icons-skills github"></img>
+    const cgithub =  <img src="./img/github.png" id="" className="icons-skills github" alt="git"></img>
     
     return(
         <Cgit>{cgithub}</Cgit>   
