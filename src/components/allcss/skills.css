@@ -133,7 +133,7 @@
     }
 
     .page1{
-        height: 150vh;
+        height: 150vh !important;
     }
 
     .icons-skills{
