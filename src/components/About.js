@@ -16,6 +16,8 @@ export default function About() {
               </br>
               <br></br>
               Basically My main interest is in Computer Science so i choose this field to pursue my career. I am a self-motivated person who is always looking for new challenges and new opportunities. I am a team player who is always eager to learn new things and improve my skills. 
+              <br></br>
+              <a href="https://aman12305.github.io/CV/" className="link"><strong><u>Resume Link</u></strong></a>
               </p>
                 
             </div>
