@@ -1,0 +1,165 @@
+.icons-div{
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    top: 2%;
+    margin: 30px 50px;
+    display: flex;
+}
+
+.icons-skills{
+    position: absolute;
+    height: 8vw;
+    width: 8vw;
+    margin: 10px 10px;
+    transition: 1s;
+}
+
+.page1{
+    height: 120vh;
+}
+
+.c{
+    top: 0;
+    left: 38%;
+}
+
+.firebase{
+    top: 0;
+    right: -15px;
+}
+
+.html{
+    top: 38%;
+    height: 6vw;
+    width: 6vw;
+    left: 5%;
+}
+
+.css{
+    bottom: -5px;
+    left: 0;
+}
+
+.js{
+    bottom: 0;
+    height: 6vw;
+    width: 6vw;
+    left: 38%;
+}
+
+.node{
+    bottom: 0;
+    right: -10px;
+
+}
+
+.react{
+    top: 38%;
+    height: 6vw;
+    width: 6vw;
+    right: 0;
+
+}
+
+.github{
+    top: 32%;
+    height: 9vw;
+    width: 9vw;
+    left: 32%;
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .container-middle{
+        margin: 0 0 30px 0;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .icons-div{
+        margin: 30px 0;
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .page1{
+        height: 120vh;
+    }
+
+    .icons-skills{
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .html{
+        left: 1.5vw;
+        height: 8.5vw;
+        width: 8.5vw;
+    }
+
+    .js{
+        height: 8.5vw;
+        width: 8.5vw;
+    }
+
+    .github{
+        top: 35%;
+        left: 36%;
+    }
+
+    .react{
+        height: 9vw;
+        width: 9vw;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 620px) {
+
+    .container-middle{
+        margin: 0 0 30px 0;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .icons-div{
+        margin: 30px 0;
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .page1{
+        height: 180vh !important;
+    }
+
+    .icons-skills{
+        height: 15vw;
+        width: 15vw;
+
+    }
+
+    .html{
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .js{
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .react{
+        height: 13vw;
+        width: 13vw;
+    }
+
+
+    .github{
+        left: 37%;
+    }
+
+}

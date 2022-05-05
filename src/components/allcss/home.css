@@ -1,0 +1,71 @@
+
+.content{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi{
+    margin: 5px 0;
+}
+
+.iam{
+    margin: 5px 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.namehover{
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.namehover:hover{
+    animation: bounce 1s ease;
+    color: #9ACD32;
+}
+
+.dev{
+    margin: 5px 0;
+    color: white;
+    width: max-content;
+    
+}
+
+.img2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 30vw;
+    width: 30vw;
+}
+
+.cursor{
+    color: #9ACD32;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 950px) {
+
+    
+    .container-middle{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        margin: 15px 0;
+        width: 70vw;
+    }
+
+    .img{
+        margin: 0 0;
+        left: auto;
+        height: 40vw;
+        width: 40vw;
+        margin: 10px 0;
+    }
+}
