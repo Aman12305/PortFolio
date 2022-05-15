@@ -28,7 +28,7 @@ export default function Projects() {
                       </p>
                     </div>
                     <div className="device">
-                        <div className="phone">
+                        <div className="phone border">
                             <div className="phonetop">
                             <hr className="hr"></hr>
                             </div>
@@ -43,8 +43,8 @@ export default function Projects() {
                             </div>
                         </div>
               
-                        <div className="laptop" >
-                          <div className="lapupper">
+                        <div className="laptop " >
+                          <div className="lapupper border">
                               <div className="lapmid">
                               
                                 <img src="./img/laptop.png" className="lapmid" alt="laptop"/>
@@ -60,7 +60,7 @@ export default function Projects() {
                           </div>
                         </div>
               
-                        <div className="tablet" >
+                        <div className="tablet border" >
                             <div className="tabtop">
                             
                             <hr className="hr"></hr>
@@ -77,18 +77,19 @@ export default function Projects() {
 
                 <div className="devmain">
                     <div className="contamain">
-                      <h1 className="heading">PortFolio</h1>
+                      <h1 className="heading">StreamTrend</h1>
                       <p className="description">
-                      This is my PortFolio in which you are hovering. It is Fully Responsive. And for making it to responsive design i am using media screen query. I am using Netlify as a hosting service and EmailJs for contacting services.
+                       It is a web application which is used to search and display the trending movies and tv show trailer from different Ott Platform.
                       <br>
                       </br>
                       <br></br>
-                      <strong className="hover1">Tech Stack:</strong> React, CSS :- animation using keyframes, EmailJs , Typewriter-Effect.
+                      <strong className="hover1">Tech Stack:</strong> React Js, TMDB API, Youtube API ,CSS
+                      <a className="link" href="https://streamtrend.netlify.app/"><u>Project Link</u></a>
                       </p>
                         
                     </div>
                     <div className="img">
-                      <img src="./img/portfolio.png" className="img1 portimg" alt="portfolio"/>
+                      <img src="./img/ott.png" className="img1 portimg" alt="portfolio"/>
                     </div>
                 </div>
 

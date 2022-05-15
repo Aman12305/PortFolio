@@ -70,3 +70,7 @@
   
   
   }
+
+.input-box:focus input{
+    border: 1px solid #9ACD32 !important;
+}

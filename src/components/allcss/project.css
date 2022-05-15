@@ -384,12 +384,17 @@
     }
 }
 
-.portimg{
-    border: 2px solid #9ACD32;
+.border{
+    border: 1px solid #9ACD32;
 }
 
+.portimg{
+    border: 1px solid #9ACD32;
+}
+
+
 .portimg:hover {
-    transform: scale(0.8) !important;
+    transform: scale(1.3) !important;
 }
 
 @media screen and (max-width: 1000px){
