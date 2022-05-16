@@ -25,6 +25,8 @@ export default function Projects() {
                       <br></br>
                       <br></br>
                       <strong className="hover1">Single Repeat Mode :</strong> It will play a song only two time and move to another song without stucking in a infinite loop.
+                      <br></br>
+                      <a className="link" href="https://bit.ly/onstreammusic"><u>Project-Link</u></a>
                       </p>
                     </div>
                     <div className="device">
@@ -84,6 +86,7 @@ export default function Projects() {
                       </br>
                       <br></br>
                       <strong className="hover1">Tech Stack:</strong> React Js, TMDB API, Youtube API ,CSS
+                      <br></br>
                       <a className="link" href="https://streamtrend.netlify.app/"><u>Project Link</u></a>
                       </p>
                         
