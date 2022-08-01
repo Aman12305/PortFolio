@@ -12,12 +12,13 @@ export default function About() {
         <div className="container-middle">
             <div className="content">
               <h1 className="heading">Who I Am ?</h1>
-              <p className="description">I am Student at Delhi Technological University with major as Electrical Engineering and minor as Computer Science,located in Delhi,India.<br>
+              <p className="description">I study electrical engineering with a minor in computer science at Delhi Technological University, which is in Delhi, India.<br>
               </br>
               <br></br>
-              Basically My main interest is in Computer Science so i choose this field to pursue my career. I am a self-motivated person who is always looking for new challenges and new opportunities. I am a team player who is always eager to learn new things and improve my skills. 
+
+Basically Computer science is my main area of interest, thus I choose to pursue a career in this field. I'm very motivated by myself and am always looking for fresh opportunities and difficulties. I'm a cooperative person who's always looking to increase my skill set and information base.
               <br></br>
-              <a href="https://aman12305.github.io/CV/" className="link"><strong><u>Resume Link</u></strong></a>
+              <a href="https://drive.google.com/file/d/1qZTaYg9hlF2ek0HDeSHtfGxQYnZpNKCS/view" target="_blank" className="link"><strong><u>Resume Link</u></strong></a>
               </p>
                 
             </div>

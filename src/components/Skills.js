@@ -15,11 +15,11 @@ export default function Skills() {
             <div className="content">
               <h1 className="heading">Skills</h1>
               <p className="description">
-              I have learned to code in C++, C, database management with MySQL. I possess strong knowledge in Data Structures, Algorithms, and OOP principles. I can set up and manage a Windows OS.
+              I am proficient in C++ and C programming. Data Structures, Algorithms, DBMS, and OOP concepts are subject areas in which I excel. I am capable in configuring and managing a Windows OS.
               <br>
               </br>
               <br></br>
-              I have also knowledge of HTML, CSS, JavaScript, React, Node.js, MongoDB, FireBase and MySQL . And I have experience in working with Git and Github also. I have made a few projects in my free time related which includes all the tech stack which explained before. 
+              I am also familiar with MySQL, MongoDB, FireBase, HTML, CSS, JavaScript, React, and Node.js. Additionally, I've worked with Git and Github before. In my spare time, I've created a few apps that use the entire tech stack that was previously described.
               </p>
                 
             </div>

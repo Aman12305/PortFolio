@@ -1,12 +1,13 @@
 .project-page{
-    height: 240vh !important;
+    /* height: 260vh !important; */
+    height:350vh !important;
     display: flex;
 
 }
 
 .project-middle{
     height: max-content !important;
-    display: flex;
+    display: block;
     align-items: center;
     justify-self: center;
     flex-direction: column;
@@ -398,6 +399,10 @@
 }
 
 @media screen and (max-width: 1000px){
+
+    .project-page{
+        height: 400vh !important;
+    }
 
     .devmain{
         display: flex;
