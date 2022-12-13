@@ -42,9 +42,14 @@ export default function Navbar() {
 
   return (
       <div className='topnav' id='Home'>
-         {/* <div className='brand'>
-   
-         </div> */}
+         <div className='brand'>
+          <div className="aman">
+            <span className='as'>A</span><span>m</span><span>a</span><span>n</span>
+          </div>
+          <div className="solanki">
+            <span className='as'>S</span><span>o</span><span>l</span><span>a</span><span>n</span><span>k</span><span>i</span>
+          </div>
+         </div>
          <div className='hamburger' onClick={handletoggler}>
            {
             logo==='hamburger'?
