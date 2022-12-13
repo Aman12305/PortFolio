@@ -1,0 +1,131 @@
+.laptop{
+    display: flex;
+    width: 65%;
+    height: 250px;
+    min-width: 250px;
+    min-height: 220px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lapupper{
+    display: flex;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    min-width: 250px;
+    min-height: 180px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(39, 37, 37);
+    border: solid 2px rgb(50, 50, 50);
+}
+.lapmid{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 2px;
+    min-height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.lapbottom{
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    height: 16%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 197, 197);
+}
+.lapicon{
+    display: flex;
+    position:absolute;
+    height: 20px;
+    height: 20px;
+}
+
+
+.laplower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lup{
+    width: 50px;
+    height: 15px;
+    display: flex;
+    border-top: solid 1px rgb(202, 197, 197);;
+    background-color: rgb(202, 197, 197);
+}
+
+.ldo{
+    display: flex;
+    width: 90px;
+    height: 10px;
+    background-color: rgb(202, 197, 197);
+    border-radius: 2px;
+
+}
+
+.border{
+    border: 1px solid #9ACD32;
+}
+
+@media screen and (max-width:1100px) {
+    .lapupper{
+        width: 100%;
+        height: 80%;
+    }
+
+    .lapbottom{
+        height: 16%;
+    }
+    
+}
+
+@media screen and (max-width:870px) {
+    
+    .laptop{
+        width: 80%;
+    }
+
+    .lapupper{
+        width: 100%;
+        height: 78%;
+    }
+
+    .lapbottom{
+        height: 16%;
+    }
+    
+}
+
+@media screen and (max-width:660px) {
+    
+    .laptop{
+        width: 80%;
+        height: 100%;
+    }
+
+    .lapupper{
+        width: 80%;
+        height: 80%;
+    }
+
+    .lapmid{
+        height: 90%;
+    }
+
+    .lapbottom{
+        height: 16%;
+    }
+    
+}

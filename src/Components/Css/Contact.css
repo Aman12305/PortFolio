@@ -1,0 +1,83 @@
+.containerflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.input-box{
+    height: 30px;
+    width: 40vw;
+    margin: 2vh 2vh;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px 5px;
+    font-family: "Dongle", sans-serif;
+    color: rgb(175, 169, 169);
+    background-color: rgb(60, 57, 57);
+    border: 1px solid white;
+    
+}
+
+.input-box:active{
+    border: #9ACD32 1px solid;
+}
+
+.input-message{
+    height: 30vh;
+    align-items: initial;
+    width: 40vw;
+    padding: 5px 5px;
+    font-size: 35px;
+    margin: 2vh 2vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: start;
+    font-family: "Dongle", sans-serif;
+    color: rgb(175, 169, 169);
+    background-color: rgb(60, 57, 57);
+
+}
+
+.submit-button{
+    display: flex;
+    height: 30px;
+    width: 40vw;
+    background-color: #9ACD32;
+    border:none ;
+    padding: 5px 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px) {
+  
+    .input-box{
+        width: 70vw;
+    }
+    .input-message{
+        width: 70vw;
+    }
+  
+    .submit-button{
+        width: 70vw;
+    }
+  
+  
+  }
+
+.input-box:focus input{
+    border: 1px solid #9ACD32 !important;
+}

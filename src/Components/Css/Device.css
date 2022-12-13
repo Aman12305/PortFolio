@@ -1,0 +1,15 @@
+.device{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    max-width: 350px; 
+}
+
+
+
+

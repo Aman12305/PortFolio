@@ -1,0 +1,50 @@
+.cursor{
+    color: #9ACD32;
+    font-size: 35px;
+}
+
+.name{
+    margin: 0 5px;
+}
+
+.leftcolumn h1, h2, h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftcolumn h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.namehover{
+    display: inline-block;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.namehover:hover{
+    animation: bounce 1s ease;
+    color: #9ACD32;
+}
+
+/* .wavehand{
+    display: inline-block;
+    transition: 0.2s;
+    animation: shake 1s ease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+} */
+
+
+
+@keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-10px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+  }

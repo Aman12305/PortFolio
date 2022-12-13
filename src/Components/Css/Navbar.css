@@ -1,0 +1,103 @@
+.topnav{
+    position: fixed;
+    top: 0;
+    background-color: rgb(35, 33, 33);
+    z-index: 4;
+    width: 100%;
+    height: 40px;
+    padding: 5px 4px;
+}
+
+.togglericon{
+    width: 40px;
+    height: 20px;
+}
+
+
+.togglericon:hover{
+    color: #9ACD32 !important;
+}
+
+.brand{
+    float: left;
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+}
+
+.navigation{
+    float: right !important;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-right: 10px;
+}
+
+.displaynone{
+    display: none;
+}
+
+.navigation p{
+    color: white;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 2px 5px;
+    margin: 2px 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigation p > .active {
+    background-color: rgb(29, 28, 28);
+    border-bottom: 3px solid #9ACD32;
+}
+
+.navigationsize{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        right: 10px;
+        top: 45px;
+        flex-direction: column;
+        width: 50%;
+        border-radius: 0 0 10px 10px;
+        background-color: rgb(35, 33, 33);
+
+}
+
+.hamburger{
+    float: right;
+    display: none;
+    margin-right:20px ;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.nav_active{
+    background-color: rgb(29, 28, 28);
+    border-bottom: 3px solid #9ACD32;
+}
+
+.navigation p:hover{
+    background-color: rgb(29, 28, 28);
+    border-bottom: 3px solid #9ACD32;
+}
+
+@media screen and (max-width:550px)
+{
+    .navigation p{
+        width: 90%;
+    }
+
+    .hamburger{
+        display: flex;
+        
+    }
+}

@@ -1,29 +1,26 @@
-
 import './App.css';
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Bottom from "./components/Bottom";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Navbar from './Components/Navbar'
+import Allproject from './Components/Allproject';
+import Home from './Components/Home'
+import Skills from './Components/Skills'
+import About from './Components/About'
+import Contact from './Components/Contact'
+import {data,divname} from './util' 
+import Bottom from './Components/Bottom';
 
-
-// import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <main className='main'>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Bottom />
-    </main>
+    <div className="App">
+      <Navbar/>
+      <Home archi={data[0]} divname={divname}/>
+      <About archi={data[1]} divname={divname}/>
+      <Skills archi={data[2]} divname={divname}/>
+      <Allproject archi={data[3]} divname={divname}/>
+      <Contact archi={data[4]} divname={divname}/>
+      <Bottom/>
+    </div>
   );
 }
-
 
 export default App;
