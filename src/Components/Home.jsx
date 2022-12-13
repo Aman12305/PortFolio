@@ -29,7 +29,7 @@ export default function Home({archi,divname}) {
           </div>
           <div className="rightcolumn">
             <div className="animationdiv">
-              <img src="./img/coding.png" className='animationdiv'></img>
+              <img src="./img/coding.png" className='animationdiv' alt='anime'></img>
             </div>
           </div>
         </div>

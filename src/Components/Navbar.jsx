@@ -1,6 +1,6 @@
 import React , {useState,useEffect} from 'react'
 import './Css/Navbar.css'
-import { ShowWindowDimensions,useWindowSize,scrollToElement } from './action/windowsize';
+import { useWindowSize,scrollToElement } from './action/windowsize';
 import { FaToggleOn,FaToggleOff} from "react-icons/fa";
 
 export default function Navbar() {

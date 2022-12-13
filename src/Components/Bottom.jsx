@@ -15,10 +15,10 @@ export default function Bottom() {
         <p className="icon-hover" onClick={handleClick}>
           <FaMailBulk className="icon"/>
         </p>
-        <a href="https://github.com/Aman12305" className="icon-hover" target='_blank'>
+        <a href="https://github.com/Aman12305" className="icon-hover" target='_blank' rel="noreferrer" >
            <FaGithub className="icon"/>
         </a>
-        <a href="https://linkedin.com/in/aman-solanki-820a14142" className="icon-hover" target='_blank'>
+        <a href="https://linkedin.com/in/aman-solanki-820a14142" className="icon-hover" target='_blank' rel="noreferrer" >
           <FaLinkedin className="icon"/>
         </a>
           <div className="line"></div>

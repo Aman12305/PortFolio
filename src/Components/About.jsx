@@ -15,12 +15,12 @@ export default function About({archi,divname}) {
               })
           }
           <div style={{margin:"5px 5px"}}>
-            <a className='link link_box' href="https://drive.google.com/file/d/1qZTaYg9hlF2ek0HDeSHtfGxQYnZpNKCS/view" target='_blank'>My_Resume</a>
+            <a className='link link_box' href="https://drive.google.com/file/d/1qZTaYg9hlF2ek0HDeSHtfGxQYnZpNKCS/view" target='_blank' rel="noreferrer" >My_Resume</a>
           </div>
           </div>
           <div className='rightcolumn'>
             <div className="animationdiv">
-                <img src="./img/aman1.png" className='myimage'></img>
+                <img src="./img/aman1.png" className='myimage' alt='aman_image'></img>
               </div>
           </div>
         </div>
